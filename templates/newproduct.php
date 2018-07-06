@@ -2,8 +2,7 @@
 
  
 <div class="ui raised very padded text container segment">
-<!-- <a class="fluid positive ui button">Nuevo Producto</a> -->
-<!-- <div class="ui divider"></div> -->
+
       <h1 class="ui item header">Ingresar Producto</h1>
 <form class="ui form" action="/core/inserprod.php" method="POST">
   <div class="field">

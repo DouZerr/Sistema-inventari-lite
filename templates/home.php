@@ -55,10 +55,10 @@
     <?=$this->section('content')?>
  
 
-    <?=$this->section('scripts')?>
       <!--JavaScript at end of body for optimized loading-->
       <script type="text/javascript" src="asset/js/jquery-3.1.1.min.js"></script>
       <script type="text/javascript" src="asset/js/semantic.js"></script>
+      <?=$this->section('scripts')?>
 
       <script type="text/javascript">
         $('.menu .browse')
@@ -75,11 +75,11 @@
       
       </script>
 
-    <div class="ui container message">
-      <div class="header">
-      <i class="code branch icon"></i> Sistema Inventario e IVA - V0.1 Alpha
+      <div class="ui container tiny message">
+        <div class="header">
+          <i class="code branch icon"></i> Sistema Inventario e IVA - V0.1.1 Alpha,
+          Sistema desarrollado para Sistemas Contables Computarizados.
+        </div>
       </div>
-      <p>Sistema desarrolado para Sistemas Contables Computarizados.</p>
-    </div>
     </body>
   </html>
