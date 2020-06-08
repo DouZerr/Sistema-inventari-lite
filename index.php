@@ -9,5 +9,5 @@ $templates = new League\Plates\Engine('templates');
 use Cake\Chronos\Chronos;
 $fecha = Chronos::now();
 
-// Render a template
+// Renderizado de la plantilla
 echo $templates->render('bienvenida', ['name' => $fecha]);

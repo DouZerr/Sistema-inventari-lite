@@ -37,7 +37,7 @@ if ($IVACT < $IVADT) {
 }
 
 
-// Render a template
+// Renderizado de la plantilla
 echo $templates->render('infiva', ['compT' => $compT, 'venT' => $venT, 
                                     'IVADT' => $IVADT, 'IVACT' => $IVACT, 
                                      'IVA' => $IVA, 'opcion' => $opcion]);

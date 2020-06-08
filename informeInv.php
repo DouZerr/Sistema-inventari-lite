@@ -21,5 +21,5 @@ $compT = $db->from('productos')->sum('preciov');
 
 
 
-// Render a template
+// Renderizado de la plantilla
 echo $templates->render('infinventario', ['productos' => $productos, 'compU' => $compU, 'compT' => $compT]);

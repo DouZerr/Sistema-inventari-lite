@@ -23,5 +23,5 @@ $time = new Chronos($fecha);
 $mes = $time->month. '-' . $time->year; // calcula mes para efecto de iva
 
 
-// Render a template
+// Renderizado de la plantilla
 echo $templates->render('newventa', ['productos' => $productos, 'fecha' => $fecha, 'mes' => $mes]);

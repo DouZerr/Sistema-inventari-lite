@@ -28,6 +28,6 @@ $tipo = '/informeVM.php';
 $boton = 'Informe Mensual';
 $titulo = 'Informe General de Ventas';
 
-// Render a template
+// Renderizado de la plantilla
 echo $templates->render('infventa', ['ventas' => $ventas, 'venU' => $venU, 'venT' => $venT, 'IVAT' => $IVAT,
                                     'mes' => $mes, 'tipo' => $tipo, 'boton' => $boton, 'titulo' => $titulo]);

@@ -28,7 +28,7 @@ $tipo = '/informeC.php';
 $boton = 'Informe General';
 $titulo = 'Informe Mensual de Compras';
 
-// Render a template
+// Renderizado de la plantilla
 echo $templates->render('infcompra', ['compras' => $compras, 'compU' => $compU, 
                                         'compT' => $compT, 'IVAT' => $IVAT, 'mes' => $mes, 
                                         'tipo' => $tipo, 'boton' => $boton, 'titulo' => $titulo]);
